@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NovoUsuarioActivity"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical">
     <EditText
         android:id="@+id/loginNovoUsuarioEditText"
@@ -16,8 +17,8 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:hint="@string/dica_login"
-        android:background="@color/colorInput"
-        android:elevation="4dp"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
         android:gravity="center"/>
     <EditText
         android:gravity="center"
@@ -30,8 +31,8 @@
         android:layout_marginStart="20dp"
         android:hint="@string/dica_senha"
         android:inputType="textPassword"
-        android:background="@color/colorInput"
-        android:elevation="4dp"/>
+        android:background="@color/colorAccent"
+        android:elevation="2dp"/>
     <Button
         android:onClick="criarNovoUsuario"
         android:layout_gravity="end"
@@ -42,5 +43,6 @@
         android:layout_marginTop="20dp"
         android:text="@android:string/ok"
         android:gravity="center"
-        android:background="@android:color/white"/>
+        android:textColor="#ffffff"
+        android:background="@android:color/black"/>
 </LinearLayout>

@@ -6,34 +6,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/gatoFeliz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amount_background"
+        android:fontFamily="sans-serif"
+        android:gravity=""
+        android:hint="@string/gato_feliz"
+        android:padding="5dp"
+        android:text="Happy cat"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/capa"
+        android:layout_width="wrap_content"
+        android:layout_height="332dp"
+        app:srcCompat="@drawable/gato"
+        android:padding="20dp"
+        android:contentDescription="@string/adocaoCapa"/>
 
     <EditText
         android:id="@+id/loginEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:gravity="center"
         android:hint="@string/dica_login"
-        android:background="@color/colorInput"
-        android:elevation="4dp"
-        android:gravity="center"/>
+        android:padding="12dp" />
 
     <EditText
         android:id="@+id/senhaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:gravity="center"
         android:hint="@string/dica_senha"
         android:inputType="textPassword"
-        android:background="@color/colorInput"
-        android:elevation="4dp"
-        android:gravity="center"/>
+        android:padding="12dp" />
 
     <Button
         android:onClick="fazerLogin"
@@ -44,19 +68,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@android:string/ok"
-        android:background="@android:color/white"/>
+        android:textColor="#ffffff"
+        android:background="@android:color/black"/>
 
     <Button
-        android:onClick="irParaCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/quero_me_cadastrar"
-        android:gravity="center"
-        android:background="@android:color/white"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"/>
-
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:onClick="irParaCadastro"
+        android:text="@string/quero_me_cadastrar" />
 
 
 </LinearLayout>
