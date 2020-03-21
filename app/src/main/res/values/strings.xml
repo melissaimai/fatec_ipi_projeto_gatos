@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">"fatecipiprojeto "</string>
-    <string name="dica_login">Type your login</string>
+    <string name="dica_login">Type your Login</string>
     <string name="dica_senha">Type your Password</string>
     <string name="quero_me_cadastrar">Sign up</string>
     <string name="data_nome">Em %s, %s diz:</string>
@@ -9,6 +9,5 @@
     <string name="erro_inesperado">Unexpected error</string>
     <string name="gato_feliz">Happy cat</string>
     <string name="adocaoCapa">logo Two cats</string>
-    <string name="dica_login">Login hint</string>
 </resources>
 

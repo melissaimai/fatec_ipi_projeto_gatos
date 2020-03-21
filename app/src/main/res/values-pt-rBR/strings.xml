@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="erro_inesperado">Erro inesperado</string>
+    <string name="dica_login">Digite seu login</string>
+    <string name="dica_senha">Digite sua senha</string>
+    <string name="quero_me_cadastrar">Cadastrar</string>
+    <string name="gato_feliz">Gato Feliz</string>
+    <string name="adocaoCapa">logo dois gatos</string>
+    <string name="digite_sua_mensagem">Digite a sua mensagem</string>
+    <string name="cadastro_funcionou">%s cadastrado com sucesso :)</string>
+    <string name="data_nome">Em %s, %s diz:</string>
 </resources>

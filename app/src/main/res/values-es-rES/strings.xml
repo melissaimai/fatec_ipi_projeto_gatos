@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">"fatecipiprojeto "</string>
+    <string name="erro_inesperado">Error inesperado</string>
+    <string name="dica_senha">Ingrese su contraseña</string>
+    <string name="dica_login">Ingrese su nombre de usuario</string>
+    <string name="quero_me_cadastrar">Registrar</string>
+    <string name="adocaoCapa">pronto dos gatos</string>
+    <string name="gato_feliz">Gato feliz</string>
+    <string name="data_nome">En% s,% s dice</string>
+    <string name="digite_sua_mensagem">Ingrese su mensaje</string>
+    <string name="cadastro_funcionou">% s registrado con éxito</string>
+</resources>

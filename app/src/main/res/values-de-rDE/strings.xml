@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">"fatecipiprojeto "</string>
+    <string name="erro_inesperado">Unerwarteter Fehler</string>
+    <string name="dica_senha">Geben Sie Ihr Passwort ein</string>
+    <string name="dica_login">Geben Sie Ihren Login ein</string>
+    <string name="quero_me_cadastrar">Registrieren</string>
+    <string name="data_nome">Em %s, %s sagt:</string>
+    <string name="digite_sua_mensagem">Geben Sie Ihre Nachricht ein</string>
+    <string name="cadastro_funcionou">%s erfolgreich registriert</string>
+    <string name="gato_feliz">Glückliche Katze</string>
+    <string name="adocaoCapa">bald zwei Katzen</string>
+</resources>

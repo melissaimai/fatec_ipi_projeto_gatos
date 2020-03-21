@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">"fatecipiprojeto "</string>
+    <string name="erro_inesperado">予期しないエラー</string>
+    <string name="dica_senha">パスワードを入力してください</string>
+    <string name="dica_login">ログインを入力してください</string>
+    <string name="quero_me_cadastrar">登録する</string>
+    <string name="data_nome">で、 %s, %s 言う：</string>
+    <string name="adocaoCapa">すぐに二匹の猫</string>
+    <string name="gato_feliz">ハッピーキャット</string>
+    <string name="digite_sua_mensagem">メッセージを入力してください</string>
+    <string name="cadastro_funcionou">%s 正常に登録されました</string>
+</resources>
